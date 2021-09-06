@@ -17,7 +17,7 @@ Asena.addCommand({ pattern: 'instagram ?(.*)', fromMe: false, desc: IG_DESC }, a
 
     if (type === 'image') { await message.sendMessage(data, MessageType.image, { caption: "*Made By Fadil*" }) }
 
-    else if (type === 'video') { await message.sendMessage(data, MessageType.video, { caption: "*Made By WhatsAsena*" }) }
+    else if (type === 'video') { await message.sendMessage(data, MessageType.video, { caption: "*Made By FADIL*" }) }
 
 });
 
